@@ -42,6 +42,10 @@
 	name = "CentCom Transport Shuttle Dock"
 	icon_state = "centcom_ferry"
 
+/area/centcom/central_command_areas/ferry/hallway
+	name = "CentCom Dock Hallway"
+	icon_state = "centcom_ferry"
+
 /area/centcom/central_command_areas/briefing
 	name = "CentCom Briefing Room"
 	icon_state = "centcom_briefing"
