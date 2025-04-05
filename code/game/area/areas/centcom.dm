@@ -15,6 +15,9 @@
 /area/centcom/central_command_areas
 	name = "Central Command Areas"
 
+/area/centcom/central_command_areas/bar
+	name = "CentCom Bar"
+
 /area/centcom/central_command_areas/control
 	name = "CentCom Central Control"
 	icon_state = "centcom_control"
