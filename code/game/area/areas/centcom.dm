@@ -15,9 +15,6 @@
 /area/centcom/central_command_areas
 	name = "Central Command Areas"
 
-/area/centcom/central_command_areas/bar
-	name = "CentCom Bar"
-
 /area/centcom/central_command_areas/control
 	name = "CentCom Central Control"
 	icon_state = "centcom_control"
@@ -40,10 +37,6 @@
 
 /area/centcom/central_command_areas/ferry
 	name = "CentCom Transport Shuttle Dock"
-	icon_state = "centcom_ferry"
-
-/area/centcom/central_command_areas/ferry/hallway
-	name = "CentCom Dock Hallway"
 	icon_state = "centcom_ferry"
 
 /area/centcom/central_command_areas/briefing
