@@ -48,6 +48,7 @@
 /area/centcom/central_command_areas/bar)
 "aj" = (
 /obj/machinery/light/directional/north,
+/obj/machinery/teleport/station,
 /turf/open/floor/iron/white/smooth_half,
 /area/centcom/central_command_areas/hallway)
 "am" = (
@@ -1499,6 +1500,13 @@
 /obj/structure/chair/comfy/green,
 /turf/open/floor/carpet/royalblack,
 /area/centcom/central_command_areas/admin)
+"hp" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/effect/light_emitter/fake_outdoors,
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "hq" = (
 /obj/structure/rack,
 /obj/item/mod/control/pre_equipped/administrative,
@@ -1546,6 +1554,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
+"hA" = (
+/obj/structure/chair/sofa/bench{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "hC" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -1784,6 +1798,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
+"iQ" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "iT" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -2477,12 +2497,26 @@
 /obj/effect/turf_decal/trimline/blue,
 /turf/open/floor/iron/dark/herringbone,
 /area/centcom/central_command_areas/medbay)
+"mY" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/obj/machinery/computer/teleporter,
+/turf/open/floor/iron/white/smooth_half,
+/area/centcom/central_command_areas/hallway)
 "mZ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
 	},
 /turf/open/floor/carpet/executive,
 /area/centcom/central_command_areas/briefing)
+"na" = (
+/obj/machinery/teleport/hub,
+/turf/open/floor/iron/white/smooth_half,
+/area/centcom/central_command_areas/hallway)
 "nb" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -3538,6 +3572,13 @@
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
+"ts" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/sign/warning/yes_smoking/circle/directional/north,
+/turf/open/floor/wood/large,
+/area/centcom/central_command_areas/garden)
 "tv" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Cran's Office";
@@ -4689,6 +4730,11 @@
 /obj/machinery/computer/records/medical/laptop,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
+"zS" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/sign/warning/yes_smoking/circle/directional/south,
+/turf/open/floor/wood/large,
+/area/centcom/central_command_areas/garden)
 "zT" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/south,
 /obj/item/kirbyplants/organic/plant17,
@@ -5131,9 +5177,6 @@
 	name = "Thunderdome"
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
 /turf/open/floor/iron,
 /area/centcom/tdome/observation)
 "CA" = (
@@ -7009,6 +7052,13 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/centcom/central_command_areas/medbay)
+"JW" = (
+/obj/structure/chair/sofa/bench/left{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "JY" = (
 /obj/structure/closet/secure_closet/corrections_officer,
 /obj/machinery/button/door/indestructible{
@@ -8127,6 +8177,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod/loading/one)
+"OT" = (
+/obj/structure/chair/sofa/bench/right{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "OU" = (
 /obj/item/mecha_parts/mecha_equipment/armor/anticcw_armor_booster{
 	pixel_x = 4;
@@ -10339,6 +10396,13 @@
 /obj/structure/sign/warning/secure_area,
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/prison/cells)
+"Zb" = (
+/obj/structure/chair/sofa/bench{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/garden)
 "Zc" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/rack/gunrack,
@@ -46995,7 +47059,7 @@ cE
 CG
 bt
 UN
-UN
+OT
 ws
 UN
 UN
@@ -47004,7 +47068,7 @@ PN
 UN
 UN
 UN
-nQ
+hp
 UN
 UN
 Yb
@@ -47252,7 +47316,7 @@ qb
 CG
 UN
 ws
-UN
+Zb
 ws
 CG
 UN
@@ -47261,7 +47325,7 @@ Nt
 Ek
 UN
 UN
-UN
+hA
 jz
 CG
 UN
@@ -47509,7 +47573,7 @@ nQ
 UN
 UN
 UN
-UN
+JW
 cF
 UN
 UN
@@ -47518,7 +47582,7 @@ xC
 Ky
 UN
 UN
-UN
+iQ
 qb
 cE
 CG
@@ -48027,9 +48091,9 @@ GQ
 GQ
 GQ
 GQ
-UF
+ts
 po
-Ky
+zS
 GQ
 GQ
 GQ
@@ -54718,7 +54782,7 @@ NU
 XT
 XP
 GQ
-Nl
+mY
 Nl
 GQ
 wU
@@ -55232,7 +55296,7 @@ dN
 Xc
 XP
 GQ
-Oj
+na
 Oj
 GQ
 wU
@@ -60863,11 +60927,11 @@ XP
 XP
 XP
 XP
-wU
+eG
 Iy
 TO
 CC
-wU
+eG
 XP
 XP
 XP
