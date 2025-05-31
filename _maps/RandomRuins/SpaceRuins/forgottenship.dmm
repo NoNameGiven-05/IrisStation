@@ -388,13 +388,15 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "bD" = (
-/obj/structure/chair/comfy{
+/obj/structure/bed/double/pod{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "bE" = (
-/obj/effect/mob_spawn/ghost_role/human/syndicatespace,
+/obj/structure/chair/comfy{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "bF" = (
@@ -565,7 +567,9 @@
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cj" = (
-/obj/machinery/stasis,
+/obj/machinery/stasis{
+	dir = 1
+	},
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ck" = (
@@ -676,6 +680,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
+/obj/effect/spawner/random/decoration/glowstick/on,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "cE" = (
@@ -987,9 +992,34 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"dE" = (
+/obj/structure/cable,
+/obj/machinery/door/window/survival_pod/left/directional/south,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/submarine_vents,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"el" = (
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"eG" = (
+/obj/machinery/rnd/production/colony_lathe,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "gz" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"ia" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "jN" = (
 /obj/structure/closet/crate/secure/gear{
@@ -1058,6 +1088,10 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"qQ" = (
+/obj/effect/spawner/random/decoration/glowstick/on,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "rz" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
@@ -1081,6 +1115,12 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"ul" = (
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "vB" = (
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 15
@@ -1092,6 +1132,12 @@
 /obj/item/ai_module/core/full/cybersun,
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"xy" = (
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "yf" = (
 /mob/living/basic/trooper/nanotrasen/ranged/assault,
@@ -1109,6 +1155,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"zO" = (
+/obj/effect/spawner/random/decoration/glowstick/on,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Cy" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium,
@@ -1116,6 +1166,11 @@
 "Dx" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer2,
 /turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"EC" = (
+/obj/machinery/power/micro_reactor,
+/obj/structure/cable,
+/turf/open/floor/iron/submarine,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "Hi" = (
 /obj/machinery/camera/xray/directional/east{
@@ -1182,6 +1237,14 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Te" = (
+/obj/structure/bed/double/pod,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Tz" = (
+/obj/effect/spawner/random/decoration/glowstick/on,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "VF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -1197,6 +1260,12 @@
 	req_access = list("syndicate")
 	},
 /obj/effect/spawner/random/clothing/costume,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"YD" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 
@@ -1679,19 +1748,19 @@ aa
 aa
 ci
 bZ
+ia
+dt
+dt
+dt
 jN
-dt
-al
-al
 dm
-dt
-al
 dp
-Ia
-al
-al
-dt
 WR
+bZ
+bD
+bz
+xy
+bY
 bZ
 ci
 aa
@@ -1725,21 +1794,21 @@ aa
 aa
 aa
 bZ
+EC
+dE
 al
 al
 al
 al
 al
 al
+Ia
+bZ
+al
+YD
 al
 al
-al
-al
-al
-al
-al
-al
-al
+el
 bZ
 aa
 aa
@@ -1782,11 +1851,11 @@ bZ
 dn
 bZ
 bZ
-bZ
-dn
-bZ
-bZ
-bZ
+al
+al
+al
+al
+Te
 bZ
 aa
 aa
@@ -1829,11 +1898,11 @@ mZ
 aR
 az
 bZ
-bz
-bD
 al
 bY
 al
+cc
+dr
 bZ
 aa
 aa
@@ -1876,11 +1945,11 @@ vB
 cC
 yf
 bZ
-bY
-bE
 al
 al
-cY
+al
+al
+al
 bZ
 aa
 aa
@@ -1924,10 +1993,10 @@ cD
 cU
 by
 al
-al
+bY
 al
 cc
-dr
+da
 bZ
 aa
 aa
@@ -1973,8 +2042,8 @@ by
 al
 al
 al
-cc
-da
+al
+bD
 bZ
 aa
 aa
@@ -2017,7 +2086,7 @@ tv
 cE
 aS
 bZ
-bY
+al
 bE
 al
 al
@@ -2064,9 +2133,9 @@ aD
 cF
 Ji
 bZ
+Te
 ah
-bD
-al
+ul
 bY
 bZ
 ac
@@ -2151,7 +2220,7 @@ aa
 bZ
 ad
 am
-am
+cj
 ct
 bZ
 al
@@ -2199,7 +2268,7 @@ bZ
 aj
 am
 am
-cj
+am
 bZ
 Dx
 mm
@@ -2252,7 +2321,7 @@ cv
 cW
 al
 aQ
-bI
+zO
 bI
 cZ
 dc
@@ -2266,7 +2335,7 @@ aY
 ba
 ba
 bX
-bj
+eG
 bj
 bj
 bj
@@ -2528,7 +2597,7 @@ cn
 al
 bZ
 al
-al
+qQ
 al
 ah
 cQ
@@ -2720,7 +2789,7 @@ aw
 aw
 aw
 cS
-aw
+Tz
 aw
 aw
 aw
@@ -2763,7 +2832,7 @@ qK
 aw
 bZ
 br
-aw
+yf
 aw
 cB
 cT
