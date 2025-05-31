@@ -12,7 +12,7 @@
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	shoes = /obj/item/clothing/shoes/sneakers/black
 	glasses = /obj/item/clothing/glasses/sunglasses
-	id = /obj/item/card/id/advanced/centcom
+	id = /obj/item/card/id/advanced/centcom/broken	// Iris Edit
 	id_trim = /datum/id_trim/centcom/corpse/bridge_officer
 
 /obj/effect/mob_spawn/corpse/human/commander
@@ -30,7 +30,7 @@
 	gloves = /obj/item/clothing/gloves/tackler/combat
 	shoes = /obj/item/clothing/shoes/combat/swat
 	r_pocket = /obj/item/lighter
-	id = /obj/item/card/id/advanced/centcom
+	id = /obj/item/card/id/advanced/centcom/broken	// Iris Edit
 	id_trim = /datum/id_trim/centcom/corpse/commander
 
 /obj/effect/mob_spawn/corpse/human/nanotrasensoldier
