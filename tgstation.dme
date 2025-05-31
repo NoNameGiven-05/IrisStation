@@ -6846,7 +6846,7 @@
 #include "modular_iris\modules\events\cognomerge\code\noitem_quirks.dm"
 #include "modular_iris\modules\food_and_drinks\recipes\tablecraft\recipes_spaghetti.dm"
 #include "modular_iris\modules\GAGS\greyscale_configs.dm"
-#include "modular_iris\modules\ghost_roles\forgotten_ship\spawners.dm"
+#include "modular_iris\modules\ghost_roles\forgotten_ship\spawner.dm"
 #include "modular_iris\modules\hydroponics\gene_modder.dm"
 #include "modular_iris\modules\hydroponics\plant_genes.dm"
 #include "modular_iris\modules\hydroponics\code\grown\rocks.dm"
